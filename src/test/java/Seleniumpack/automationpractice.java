@@ -17,7 +17,7 @@ public class automationpractice {
 		driver.findElement(By.xpath("//*[@id=\"email_create\"]")).click();
 		
 		driver.findElement(By.xpath("//*[@id=\"email_create\"]")).sendKeys("alhgdsaf@gmail.com");
-		//setting value by sendKey
+		//setting value by sendkeys
 		
 		driver.findElement(By.id("SubmitCreate")).click();
 		
