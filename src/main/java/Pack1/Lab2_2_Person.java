@@ -1,24 +1,15 @@
 package Pack1;
 
-public class Lab2_2_Person extends Lab2_1_Account{
+public class Lab2_2_Person 
+{
+	private String name;
+private int age;
 
-	String name;
-	float age;
-
-	public String getName() {
-		return name;
-	}
-
-	public void setName(String name) {
-		this.name = name;
-	}
-
-	public float getAge() {
-		return age;
-	}
-
-	public void setAge(float age) {
-		this.age = age;
-	}
-
+public Lab2_2_Person(String name,int age) {
+	this.name = name;
+	this.age = age;
+}
+public String getName() {
+	return name;
+}
 }

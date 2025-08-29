@@ -1,22 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite thread-count="2" parallel="tests" name="Failed suite [Suite]">
-  <test thread-count="2" parallel="tests" name="firefoxtest(failed)">
-    <parameter name="browser" value="firefox"/>
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="Seleniumpack.Lab9_4">
+      <class name="Questions.Q3">
         <methods>
-          <include name="afterMethod"/>
-          <include name="beforeTest"/>
-          <include name="afterClass"/>
-          <include name="beforeSuite"/>
-          <include name="afterTest"/>
-          <include name="afterSuite"/>
-          <include name="beforeMethod"/>
-          <include name="f" invocation-numbers="0"/>
-          <include name="beforeClass"/>
+          <include name="f"/>
         </methods>
-      </class> <!-- Seleniumpack.Lab9_4 -->
+      </class> <!-- Questions.Q3 -->
     </classes>
-  </test> <!-- firefoxtest(failed) -->
+  </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
