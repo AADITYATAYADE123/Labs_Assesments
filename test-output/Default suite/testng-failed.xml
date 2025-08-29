@@ -3,19 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Seleniumpack.ExcelRetrieve">
+      <class name="Questions.Q3">
         <methods>
-          <include name="beforeClass"/>
-          <include name="beforeMethod"/>
           <include name="f"/>
-          <include name="afterSuite"/>
-          <include name="afterClass"/>
-          <include name="afterTest"/>
-          <include name="beforeSuite"/>
-          <include name="afterMethod"/>
-          <include name="beforeTest"/>
         </methods>
-      </class> <!-- Seleniumpack.ExcelRetrieve -->
+      </class> <!-- Questions.Q3 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
